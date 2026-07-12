@@ -1,0 +1,11 @@
+# The registry layer is private by design — only the README and template ship.
+vault/_REGISTRY/*
+!vault/_REGISTRY/README.md
+!vault/_REGISTRY/PROJECT-CARD-TEMPLATE.md
+
+# Obsidian workspace state (if you open vault/ as an Obsidian vault)
+.obsidian/
+
+# OS noise
+Thumbs.db
+.DS_Store
