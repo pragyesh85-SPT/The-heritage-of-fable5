@@ -1,7 +1,10 @@
 # W13 — UI Creation Without AI Slop
 
 Trigger: building any screen, page, or app UI. Companion to W11 (mechanics) and
-C09 (taste). This doc exists because model-generated UI regresses to a recognizable
+C09 (taste). **Executable form: the `/no-slop` skill (v1.0.0, `skills/no-slop/`
+in the heritage repo)** — six gates + three reference packs (BANNED blacklist,
+GOOD-UI archetypes/tokens, UX-TRUST), including build-time reference-DNA
+extraction via kimi-webbridge and an audit mode for existing pages. This doc exists because model-generated UI regresses to a recognizable
 median — "AI slop" — unless actively steered away.
 
 ## The slop signature (banned by default — each needs explicit justification to use)

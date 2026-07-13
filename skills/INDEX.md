@@ -26,6 +26,7 @@ prompt.
 | full-picture | Founder-language complete explanation of any feature/app/workflow | communication |
 | nirmaan | Production build protocol: discovery → plan → build → verify → deploy, with state files | build system |
 | research | Indian stock market research (Moneycontrol/NSE): FII/DII, sectors, option chain | research |
+| no-slop | Anti-slop gates for all UI/UX/copy: banned-pattern blacklist, genre archetypes, token recipe, trust layer, audit mode | design system |
 | kimi-webbridge | Real-browser control daemon (navigate, click, scrape with live sessions) | automation |
 
 ## Commands (single-file)
