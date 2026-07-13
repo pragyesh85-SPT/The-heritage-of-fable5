@@ -27,15 +27,18 @@ const html=`<!DOCTYPE html><html><head><meta charset="utf-8"><title>CLAUDE-BRAIN
 <div id="tip"></div>
 <script>const D=${data};const C={core:'#e8b339',craft:'#7aa2f7',workflow:'#9ece6a',registry:'#f7768e',note:'#bb9af7'};
 const cv=document.getElementById('c'),cx=cv.getContext('2d');let W,H;const R=()=>{W=cv.width=innerWidth;H=cv.height=innerHeight};R();onresize=R;
-const N=D.nodes.map(n=>({...n,x:W/2+(Math.random()-.5)*W*.8,y:H/2+(Math.random()-.5)*H*.8,vx:0,vy:0}));
+const N=D.nodes.map(n=>({...n,x:W/2+(Math.random()-.5)*W*.5,y:H/2+(Math.random()-.5)*H*.5,vx:0,vy:0}));
 const E=D.edges;const adj={};E.forEach(([a,b])=>{(adj[a]=adj[a]||[]).push(b);(adj[b]=adj[b]||[]).push(a);});
 N.forEach(n=>n.deg=(adj[n.id]||[]).length);
 let zoom=.9,px=0,py=0,drag=null,panning=false,mx=0,my=0;
 function step(){for(let i=0;i<N.length;i++){const a=N[i];for(let j=i+1;j<N.length;j++){const b=N[j];
- let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy+0.01;if(d2<64000){const f=1400/d2;dx*=f;dy*=f;a.vx+=dx;a.vy+=dy;b.vx-=dx;b.vy-=dy;}}}
- E.forEach(([ai,bi])=>{const a=N[ai],b=N[bi];const dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)+.01,f=(d-90)*.004;
- a.vx+=dx/d*f*d;a.vy+=dy/d*f*d;b.vx-=dx/d*f*d;b.vy-=dy/d*f*d;});
- N.forEach(n=>{n.vx+=(W/2-n.x)*.0004;n.vy+=(H/2-n.y)*.0004;if(n!==drag){n.x+=n.vx*=.82;n.y+=n.vy*=.82;}});}
+ let dx=a.x-b.x,dy=a.y-b.y,d2=dx*dx+dy*dy+0.01;if(d2<160000){const d=Math.sqrt(d2),f=2200/d2;
+ a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;}}}
+ E.forEach(([ai,bi])=>{const a=N[ai],b=N[bi];const dx=b.x-a.x,dy=b.y-a.y,d=Math.sqrt(dx*dx+dy*dy)+.01,f=(d-110)*.02;
+ a.vx+=dx/d*f;a.vy+=dy/d*f;b.vx-=dx/d*f;b.vy-=dy/d*f;});
+ N.forEach(n=>{n.vx+=(W/2-n.x)*.002;n.vy+=(H/2-n.y)*.002;
+ const sp=Math.hypot(n.vx,n.vy);if(sp>9){n.vx*=9/sp;n.vy*=9/sp;}
+ if(n!==drag){n.x+=n.vx*=.85;n.y+=n.vy*=.85;}});}
 function draw(){cx.setTransform(1,0,0,1,0,0);cx.clearRect(0,0,W,H);cx.setTransform(zoom,0,0,zoom,px,py);
  cx.strokeStyle='#3a3d4a';cx.lineWidth=.7;cx.beginPath();E.forEach(([a,b])=>{cx.moveTo(N[a].x,N[a].y);cx.lineTo(N[b].x,N[b].y);});cx.stroke();
  N.forEach(n=>{const r=3+Math.min(11,n.deg*.9);cx.beginPath();cx.arc(n.x,n.y,r,0,7);cx.fillStyle=C[n.group];cx.fill();
