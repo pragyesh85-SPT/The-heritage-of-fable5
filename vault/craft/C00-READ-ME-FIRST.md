@@ -38,6 +38,8 @@ any other page in this folder.
   shows and the external mechanism that buys each piece back. Successors read this FIRST.
 - **C12 — External canon:** field-proven practices distilled from published agent
   research, deltas only, dated — re-distill yearly.
+- **C14 — When to break the rules:** the override protocol — precedence order,
+  staleness, vault-worship. Read LAST; it governs everything above.
 - **C13 — How I think:** the generating function behind the whole vault — the ten
   thinking patterns and the meta-procedure for creating NEW guidance. Read when
   facing a situation no doc covers.

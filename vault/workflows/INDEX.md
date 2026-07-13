@@ -65,6 +65,10 @@ Load the ONE doc matching the task (plus core files per `00-README.md`). Don't l
 - **W98** Verifying agent work — three verification layers, acceptance gates, verdicts
 - **W99** Agent governance — spawn ladder, agent kinds, owner-consent gate, kill rules
 
+## W100 — The gate on all of the above
+- **W100** Vault acceptance test — ten unannounced probes that verify a model is
+  actually OPERATING this system, with scoring and a per-model logbook
+
 ## Gaps → how to add a new workflow
 New task type with no doc: do the task with the core pack (01–08), then write the
 W-doc from what was learned — same shape: Trigger / Parameters / Procedure /

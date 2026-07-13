@@ -18,10 +18,14 @@ reading the vault at all.
 ## The four layers
 | Layer | Path | Question it answers | When loaded |
 |---|---|---|---|
-| Craft | `craft\C00–C13` | how to use intelligence well | read ONCE per model tenure |
+| Craft | `craft\C00–C14` | how to use intelligence well | read ONCE per model tenure |
 | Core | `00–10` | how to behave for this user | always |
-| Workflows | `workflows\W10–W99` | how to do this specific task | one per task |
+| Workflows | `workflows\W10–W100` | how to do this specific task | one per task |
 | Registry | `_REGISTRY\` | what exists here (projects, contracts, audits) | per project |
+
+Also at root: `RESURRECTION.md` — rebuild the entire system from zero (new machine,
+lost drive, full handoff). New models are onboarded via `workflows\W100` before
+receiving standing work; overrides of any doc follow `craft\C14`.
 
 ## Standing obligations (every session)
 - Sleep protocol (W83): before ending, write back decisions/learnings/state to the
