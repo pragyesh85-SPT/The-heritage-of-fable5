@@ -4,6 +4,12 @@ Trigger: setting up or maintaining per-project knowledge so that a NEW chat on t
 same project "remembers everything" without rereading source files.
 Extends W80 (registry) + W81 (loading). This is the design that makes them scale.
 
+**Automation:** the `/neuron` skill (v1.0.0, `skills/neuron/` in the heritage repo)
+executes this entire protocol as one command — bootstrap, wake, sleep, link
+(integrated repos), status, rebuild — storing the vault as `.neuron/` INSIDE each
+repo so context travels with `git clone`. This doc remains the protocol authority;
+the skill is its executable form.
+
 ## The principle
 A model cannot "remember" across chats — but it doesn't need to. It needs the
 DISTILLATE: decisions, facts, structures, and gotchas, stored as small linked notes
