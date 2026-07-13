@@ -20,7 +20,7 @@ reading the vault at all.
 |---|---|---|---|
 | Craft | `craft\C00–C13` | how to use intelligence well | read ONCE per model tenure |
 | Core | `00–10` | how to behave for this user | always |
-| Workflows | `workflows\W10–W95` | how to do this specific task | one per task |
+| Workflows | `workflows\W10–W99` | how to do this specific task | one per task |
 | Registry | `_REGISTRY\` | what exists here (projects, contracts, audits) | per project |
 
 ## Standing obligations (every session)

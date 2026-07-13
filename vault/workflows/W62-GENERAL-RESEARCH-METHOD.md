@@ -27,9 +27,25 @@ the specialized W60/W61 domains.
 3. The strongest counter-argument and why it does/doesn't change the answer.
 4. Confidence: high/medium/low + what single new fact would flip the conclusion.
 
+## The search ladder (decide mechanically, don't deliberate)
+- **Never search:** timeless facts, established concepts, math — answering from
+  knowledge is faster and search adds nothing.
+- **Single search:** one fresh fact (a price, a version, someone's current role,
+  today's status of X).
+- **Multi-search research:** open questions, comparisons, anything feeding a
+  decision (the full method above).
+When in doubt between rungs, go one rung UP — a wasted search is cheaper than a
+stale answer presented as current.
+
+## Quoting discipline in research outputs
+Paraphrase by default. Direct quotes: max ~15 words, quotation marks + attribution,
+at most one quote per source. Never reproduce lyrics/poems/long passages. This is
+both a legal boundary and a quality forcing-function — paraphrasing proves the
+source was understood.
+
 ## Failure this prevents
 Confident summaries of stale blog posts, one-sided research, facts/estimates/opinions
-blended into mush, research with no decision attached.
+blended into mush, research with no decision attached, copyright-liable reports.
 
 ## Linked
 [[W60-CRYPTO-RESEARCH]] · [[W61-STOCK-MARKET-ANALYSIS]]

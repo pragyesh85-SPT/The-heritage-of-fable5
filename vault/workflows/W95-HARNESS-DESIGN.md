@@ -46,6 +46,27 @@ mistake happen twice? (ledger) · Does quality survive a model downgrade?
 (structure vs raw intelligence) · Does session N+1 start smarter than session N?
 (write-back). Four yeses = the harness, not the model, is now the asset.
 
+## Reference architecture: production system prompts (studied 2026-07-12)
+The Claude Fable 5 consumer-app system prompt (republished at
+github.com/elder-plinius/CL4R1T4S, ANTHROPIC/CLAUDE-FABLE-5.md — that repo collects
+production prompts of major AI products; useful study material when building
+Bharat-One-class chat products). Structural patterns worth copying into any harness
+you build:
+1. **Sectioned contract, not one blob:** behavior / memory / storage / tool-use /
+   search each in its own named section — a model can be pointed at ONE section when
+   it misbehaves there (same reason this vault is many small files).
+2. **Decision ladders instead of vague policy:** e.g. search policy as an explicit
+   ladder (never-search for timeless facts → single-search for fresh facts →
+   multi-step research for open questions). Every "use judgment" in your harness
+   should become a ladder like this.
+3. **Tool-choice hierarchy stated flat out:** internal data sources before web;
+   specific tool X for job Y. Models waste tokens choosing; the harness pre-decides.
+4. **Hard numeric limits where drift is likely** (quote length, format rules) —
+   numbers are enforceable; adjectives are not.
+5. **Output-channel rules separated from content rules** (what goes in the final
+   message vs interim text). If your product has multiple surfaces, say which
+   content belongs to which.
+
 ## Failure this prevents
 "Smart model, chaotic results" setups; harnesses that are one giant prompt;
 paying frontier prices because the structure can't support cheaper executors;

@@ -60,6 +60,10 @@ Load the ONE doc matching the task (plus core files per `00-README.md`). Don't l
 - **W93** Agent systems — anatomy, stop conditions, when multi-agent is earned
 - **W94** Multi-agent at minimum cost — SOP-not-executor principle, lanes, envelopes, merge
 - **W95** Harness design — the seven components, weak-model test, grading questions
+- **W96** Breaking work into agent tasks — independence test, split shapes, collision map
+- **W97** Briefing an agent — the seven-section handoff contract, executor calibration
+- **W98** Verifying agent work — three verification layers, acceptance gates, verdicts
+- **W99** Agent governance — spawn ladder, agent kinds, owner-consent gate, kill rules
 
 ## Gaps → how to add a new workflow
 New task type with no doc: do the task with the core pack (01–08), then write the
