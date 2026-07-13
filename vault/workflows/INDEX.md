@@ -6,8 +6,10 @@ Load the ONE doc matching the task (plus core files per `00-README.md`). Don't l
 - **W10** SVG / logo / diagram / illustration
 - **W11** UI component / screen / form / dashboard card
 - **W12** Invoice / PDF / printable document
-- **W13** UI without AI slop — banned patterns, anti-slop procedure, acceptance tests
+- **W13** UI without AI slop — banned patterns, anti-slop procedure, acceptance tests (skill: /no-slop)
 - **W14** UX — flows, friction audits, behavior rules, the cold-user test
+- **W15** Charts & dashboards — question-first charts, honesty rules, data tokens
+- **W16** AI features inside products — backend-only calls, cost fence, trust fence, prompt management
 
 ## W2x — Firebase & Firestore
 - **W20** Designing a database / new collections / modeling data
@@ -17,6 +19,7 @@ Load the ONE doc matching the task (plus core files per `00-README.md`). Don't l
 - **W24** Traffic spike / slow under load / "CPU upgrade" / background job management
 - **W25** Writing Cloud Functions, webhooks, scheduled jobs
 - **W26** Backups, restore, disaster recovery
+- **W27** Production data migration — invariants, dry-run scripts, staged shape changes, legacy imports
 
 ## W3x — Operations
 - **W30** Git: dev vs prod branches, releases, rollback

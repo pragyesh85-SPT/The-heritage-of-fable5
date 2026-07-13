@@ -31,10 +31,14 @@ made the decision.
 
 | Layer | Path | Question it answers | When loaded |
 |---|---|---|---|
-| **Craft** | `vault/craft/` (C00–C13) | how to use intelligence well | once per model "tenure" |
+| **Craft** | `vault/craft/` (C00–C14) | how to use intelligence well | once per model "tenure" |
 | **Core** | `vault/00–10` | how to behave for this user | every session |
-| **Workflows** | `vault/workflows/` (W10–W95) | how to do THIS specific task | one per task |
+| **Workflows** | `vault/workflows/` (W10–W100) | how to do THIS specific task | one per task |
 | **Registry** | `vault/_REGISTRY/` | what exists (your projects) | per project — **private, template provided** |
+
+Plus, at the vault root: `RESURRECTION.md` (rebuild the entire system from zero)
+and `GRAPH.html` (a self-contained interactive view of the vault's link graph —
+regenerate anytime with `tools/makegraph.js`).
 
 Entry point: **[`vault/HOME.md`](vault/HOME.md)**. Every session starts there.
 The design rule that makes it work with any context size: *index always loaded,
@@ -52,21 +56,38 @@ bodies just-in-time* — a session loads ~3–5 files, never all 70.
   risk, self-verification, long tasks, taste, heuristics
 
 **Workflows — one procedure per task type (`vault/workflows/`)**
-- *Creating:* UI without AI slop (W13), UX design (W14), components, SVG, PDFs
+- *Creating:* UI without AI slop (W13), UX design (W14), charts & dashboards
+  (W15), AI features inside products (W16), components, SVG, PDFs
 - *Backend:* Firestore schema/rules/debugging, multi-app sync, scaling,
-  functions, backups (W20–W26)
+  functions, backups, **production data migration (W27)** (W20–W27)
 - *Operations:* git flow, environments, secrets, monitoring, live incidents,
   cost control (W30–W35)
 - *Security:* baseline, auth/RBAC, payments, and **W43 — a six-lane application
   security audit SOP designed for cheap-agent fan-out**
 - *Architecture:* systems (W90), memory systems (W91), RAG (W92), agents (W93),
   **multi-agent orchestration at minimum cost (W94)**, harness design (W95)
+- *Agent operations:* task decomposition (W96), the briefing contract (W97),
+  layered verification (W98), governance & the owner-consent gate (W99)
 - *Knowledge system:* project registry, context loading under 2k tokens, cheap
   model leverage, the linked-note network, small-model prompt envelopes (W80–W84)
+- **W100 — the vault acceptance test:** ten unannounced probes that verify a
+  model is actually *operating* this system before you trust it with real work
 
-**Skill — the one-command boot (`skills/brain/`)**
-- A Claude Code skill (`/brain`) that boots any session into the vault: load
-  contract → route to the one matching workflow → work → write learnings back.
+**Skills & commands — one-command execution (`skills/`, `commands/`)**
+- `/brain` — boots any session into the vault: load contract → route to the one
+  matching workflow → work → write learnings back
+- `/neuron` — per-project context "neural network": a `.neuron/` vault inside
+  any repo (bootstrap / wake / sleep / link / status / rebuild) so a new chat
+  gets full project memory in <3k tokens, and it travels with `git clone`
+- `/no-slop` — anti-slop gates for all UI/UX/copy: a 20-pattern banned list,
+  genre archetypes, a numeric token recipe, the trust layer, and an audit mode
+- Plus the full toolbox: `graphify` (knowledge graphs), `nirmaan` (build
+  protocol), `full-picture`, `research`, and orchestration commands
+  (`builder`, `planing`, `checkcode`, `feature`) — catalog in
+  [`skills/INDEX.md`](skills/INDEX.md)
+
+**Any harness** — [`ANY-HARNESS.md`](ANY-HARNESS.md): the same system on
+OpenCode, Hermes, custom Agent-SDK builds, or a bare LLM with file access.
 
 ## Quick start
 
