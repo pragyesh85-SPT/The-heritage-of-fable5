@@ -51,3 +51,6 @@ Your code comes out FLUENT — well-shaped, well-named, confident. Fluency hides
 from reviewers (and from you). Compensate with mechanical verification: run it, feed
 it the edge litany, print intermediate values. Never let beautiful code skip the
 checks ugly code would get.
+
+## Linked
+[[C09-TASTE]] · [[07-BUILD-PLAYBOOK]]

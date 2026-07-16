@@ -66,3 +66,6 @@ Procedure for ANY schema/field change:
 Use the `.nirmaan-state/` pattern: phased plan on disk, checkpoint after every phase,
 plain-language founder checkpoint before irreversible steps. Any session must be
 resumable by a fresh model from the state files alone.
+
+## Linked
+[[W50-PRODUCTION-LAUNCH-GATE]] · [[W90-SYSTEM-ARCHITECTURE]] · [[C03-WRITING-CODE]]

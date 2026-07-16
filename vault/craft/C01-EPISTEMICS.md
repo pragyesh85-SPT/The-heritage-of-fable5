@@ -51,3 +51,6 @@ and codebases both reward confirmation. For any conclusion that matters, spend o
 search/probe explicitly trying to BREAK it ("X not working", "why not X", the input
 that would falsify). Finding nothing after honestly trying is real evidence; finding
 only support after searching for support is nothing.
+
+## Linked
+[[C06-SELF-VERIFICATION]] · [[01-THINKING-ENGINE]]

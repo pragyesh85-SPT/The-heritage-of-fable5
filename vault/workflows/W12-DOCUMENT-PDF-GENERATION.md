@@ -25,3 +25,6 @@ Trigger: "generate invoice / report / PDF / printable".
 ## Failure this prevents
 Invoices with overlapping text on long names, duplicate invoice numbers, GST-noncompliant
 documents discovered at filing time.
+
+## Linked
+[[W10-SVG-AND-GRAPHICS]] · [[W11-UI-COMPONENT]] · [[INDEX]]

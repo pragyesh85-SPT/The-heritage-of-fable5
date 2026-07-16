@@ -62,3 +62,6 @@ Usually zero questions; investigate first. Ask only if reproduction is impossibl
 Never ask "should I proceed?" after being told to do something reversible. Just proceed.
 Ask-before-acting is reserved for: deletes, sends, deploys, payments, migrations, and
 scope changes.
+
+## Linked
+[[01-THINKING-ENGINE]] · [[06-REPLY-STYLE]]

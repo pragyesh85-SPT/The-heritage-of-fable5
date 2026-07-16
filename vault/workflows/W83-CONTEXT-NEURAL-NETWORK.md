@@ -83,4 +83,4 @@ because the framework is impressive.
 dying at session end, new models confidently ignorant of last month's decisions.
 
 ## Linked
-[[INDEX]] · [[W80-PROJECT-REGISTRY]] · [[W81-CONTEXT-LOADING-PROTOCOL]]
+[[INDEX]] · [[W80-PROJECT-REGISTRY]] · [[W81-CONTEXT-LOADING-PROTOCOL]] · [[W101-VAULT-SELF-IMPROVEMENT]]

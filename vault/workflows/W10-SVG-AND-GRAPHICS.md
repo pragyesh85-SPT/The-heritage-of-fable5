@@ -33,3 +33,6 @@ actual size), works on dark background if required. Fix and re-render until clea
 
 ## Failure this prevents
 Overlapping labels, clipped edges, invisible-on-dark logos — shipped because nobody rendered it.
+
+## Linked
+[[W11-UI-COMPONENT]] · [[W13-UI-ANTI-SLOP]] · [[INDEX]]

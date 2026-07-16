@@ -43,3 +43,6 @@ max-pain / OI walls for expiry-week levels, bulk/block deals, corporate announce
 ## Failure this prevents
 Indicator soup, analyzing a stock while ignoring an FII-selling tape, targets with no
 invalidation level, numbers from memory.
+
+## Linked
+[[W62-GENERAL-RESEARCH-METHOD]] · [[W60-CRYPTO-RESEARCH]] · [[C01-EPISTEMICS]]

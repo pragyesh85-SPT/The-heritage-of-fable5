@@ -39,3 +39,6 @@ without rules is publicly writable by any logged-in user (or everyone, in test m
 
 ## Failure this prevents
 Any customer reading all orders, advisors setting their own commission, deleted audit trails.
+
+## Linked
+[[W20-FIRESTORE-SCHEMA-DESIGN]] · [[W41-AUTH-AND-RBAC]] · [[W40-SECURITY-BASELINE]]

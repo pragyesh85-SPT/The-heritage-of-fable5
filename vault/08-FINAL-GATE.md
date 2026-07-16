@@ -44,3 +44,6 @@ in the chat log of 2026-07-12; the rules stand alone.
 8. The last paragraph is finished work or a named blocker — not a plan.
 
 **If any item fails: fix and re-check. Never send anyway.**
+
+## Linked
+[[C06-SELF-VERIFICATION]] · [[10-OPERATING-PARAMETERS]] · [[06-REPLY-STYLE]]

@@ -47,3 +47,6 @@ When he says "explain X / what does this do / show me the workflow":
 - File references as clickable links.
 - Code shown to him only when he asks; default is describing the behavior change.
 - Keep replies as short as completeness allows — but completeness wins over brevity.
+
+## Linked
+[[02-QUESTION-PROTOCOL]] · [[08-FINAL-GATE]]

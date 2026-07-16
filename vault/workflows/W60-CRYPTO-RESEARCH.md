@@ -52,3 +52,6 @@ whether it moves as anything other than a high-beta BTC proxy, team/treasury beh
 ## Failure this prevents
 Confident single-direction calls from stale memory — the fastest way research loses
 someone real money.
+
+## Linked
+[[W62-GENERAL-RESEARCH-METHOD]] · [[W61-STOCK-MARKET-ANALYSIS]] · [[C01-EPISTEMICS]]

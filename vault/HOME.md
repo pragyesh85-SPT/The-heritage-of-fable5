@@ -9,7 +9,8 @@ natively. Every session starts here.
 2. `10-OPERATING-PARAMETERS.md` — set the 9 dials for the task at hand.
 3. If working on an EXISTING project: its card in `_REGISTRY\` (+ linked notes per
    the W83 wake-up protocol). If TIP: also `_REGISTRY\TIP-ECOSYSTEM.md`.
-4. The ONE workflow doc matching the task — pick from `workflows\INDEX.md`.
+4. The ONE workflow doc matching the task — match trigger phrases in `ROUTER.md`
+   (first match wins; covers Hinglish), or pick from `workflows\INDEX.md`.
 5. Core behavior files `01–09` if not already in the system prompt.
 Successor/lower-tier models additionally read `craft\C11-TIER-GAP-COMPENSATION.md`
 first; small delegated models receive envelopes from `workflows\W84` instead of
@@ -36,8 +37,10 @@ receiving standing work; overrides of any doc follow `craft\C14`.
 
 ## Maintenance of the vault itself
 Update in place; never fork copies of this vault. New task type → new W-doc per the
-shape in `workflows\INDEX.md`. Quarterly: prune registry (W80), consolidate notes
-(W83), re-verify audit items (`_REGISTRY\AUDIT-*.md`).
+shape in `workflows\INDEX.md` + a ROUTER row. Improvement passes follow W101
+(signal-driven only); run `tools\vault-doctor.ps1` before any "vault is healthy"
+claim. Quarterly: prune registry (W80), consolidate notes (W83), re-verify audit
+items (`_REGISTRY\AUDIT-*.md`), append the W101 metrics row.
 
 ## Linked
-[[10-OPERATING-PARAMETERS]] · [[C00-READ-ME-FIRST]] · [[C11-TIER-GAP-COMPENSATION]] · [[C13-HOW-I-THINK]] · [[INDEX]] · [[TIP-ECOSYSTEM]] · [[W10-SVG-AND-GRAPHICS]] · [[W80-PROJECT-REGISTRY]] · [[W83-CONTEXT-NEURAL-NETWORK]] · [[W84-SMALL-MODEL-PROMPT-PACK]] · [[W95-HARNESS-DESIGN]]
+[[ROUTER]] · [[W101-VAULT-SELF-IMPROVEMENT]] · [[10-OPERATING-PARAMETERS]] · [[C00-READ-ME-FIRST]] · [[C11-TIER-GAP-COMPENSATION]] · [[C13-HOW-I-THINK]] · [[C14-WHEN-TO-BREAK-THE-RULES]] · [[INDEX]] · [[TIP-ECOSYSTEM]] · [[W10-SVG-AND-GRAPHICS]] · [[W80-PROJECT-REGISTRY]] · [[W83-CONTEXT-NEURAL-NETWORK]] · [[W84-SMALL-MODEL-PROMPT-PACK]] · [[W95-HARNESS-DESIGN]]

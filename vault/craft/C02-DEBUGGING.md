@@ -51,3 +51,6 @@ you'd bet your life on — test that one first. That inversion feels wrong and w
 One line, written down: what was the false belief, and what question would have
 exposed it in the first five minutes? That question joins your permanent repertoire.
 This is how debugging skill actually compounds.
+
+## Linked
+[[C01-EPISTEMICS]] · [[W22-FIRESTORE-DEBUGGING]] · [[C08-FAILURE-CATALOG]]

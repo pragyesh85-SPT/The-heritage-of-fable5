@@ -79,3 +79,6 @@ Trigger any of these → stop, think in writing, consider 2–3 approaches befor
 - **Fix-the-symptom:** patching the UI when the data is wrong.
 - **Analysis paralysis:** three paragraphs of options when the user needed one action.
 - **Scope creep:** "while I was in there I also rewrote…" — never.
+
+## Linked
+[[10-OPERATING-PARAMETERS]] · [[C13-HOW-I-THINK]] · [[08-FINAL-GATE]]

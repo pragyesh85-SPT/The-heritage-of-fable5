@@ -63,3 +63,6 @@ After writing, add ONE line to `MEMORY.md` (the index):
 
 Every ~10 sessions or when the index exceeds ~40 lines: merge duplicates, delete stale
 facts, rewrite vague descriptions. (A consolidate-memory pass — do it, don't ask.)
+
+## Linked
+[[03-RETRIEVAL]] · [[W83-CONTEXT-NEURAL-NETWORK]] · [[W91-MEMORY-ARCHITECTURE]]
